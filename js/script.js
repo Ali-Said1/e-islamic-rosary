@@ -35,22 +35,22 @@ Numdiv.innerText = i;
 
 mainBtn.addEventListener("click", function () {
   if (i < 33) {
-    mainBtn.innerText = "سبحان اللّه";
+    mainBtn.innerText = "سبحن الله";
     ++i;
     Numdiv.innerText = i;
   } else if (i > 32 && i < 66) {
-    mainBtn.innerText = "الحمد للّه";
+    mainBtn.innerText = "الحمد لله";
     ++i;
     Numdiv.innerText = i;
   } else if (i > 65 && i <= 98) {
-    mainBtn.innerText = "اللّه أكبر";
+    mainBtn.innerText = "الله أكبر";
     ++i;
     Numdiv.innerText = i;
   } else if (i == 99) {
     ++i;
     (Numdiv.innerText = "100"),
       (mainBtn.innerText =
-        "لا إلهَ إلاَّ اللَّه وحْدهُ لاَ شَرِيكَ لهُ، لَهُ المُلْكُ، ولَهُ الحمْدُ، وَهُو عَلَى كُلِّ شَيءٍ قَدِيرٌ");
+        "لا إلهَ إلاَّ الله وحْدهُ لاَ شَرِيكَ لهُ، لَهُ المُلْكُ، ولَهُ الحمْدُ، وَهُو عَلَى كُلِّ شَيءٍ قَدِيرٌ");
   } else if (i == 100) {
     i = 0;
     Numdiv.innerText = i;
