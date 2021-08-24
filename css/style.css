@@ -30,6 +30,7 @@ button {
   -moz-transition: width 0.5s;
   -ms-transition: width 0.5s;
   -o-transition: width 0.5s;
+  cursor: pointer;
 }
 button:active {
   width: fit-content;
@@ -78,6 +79,7 @@ i{
     position: absolute;
     top: 20px;
     right: 20px;
+    cursor: pointer;
 }
 
 i:last-of-type{
