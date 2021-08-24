@@ -35,7 +35,7 @@ Numdiv.innerText = i;
 
 mainBtn.addEventListener("click", function () {
   if (i < 33) {
-    mainBtn.innerText = "سبحن الله";
+    mainBtn.innerText = "سبحان الله";
     ++i;
     Numdiv.innerText = i;
   } else if (i > 32 && i < 66) {
